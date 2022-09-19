@@ -1,6 +1,6 @@
 # Build Environment
 LATEX_INPUT = curriculum-vitae
-LATEX_OUTPUT = curriculum-vitae
+LATEX_OUTPUT = evan-sosenko-cv
 LATEX_OUTPUT_EXT = pdf
 LATEX_SRC = tex
 LATEX_BULD = build
