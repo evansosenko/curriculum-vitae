@@ -23,7 +23,7 @@ jobs:
       - name: Build
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: tex/makenew-latex-project.tex
+          root_file: tex/curriculum-vitae.tex
           work_in_root_file_dir: true
           latexmk_use_xelatex: true
       - name: Release

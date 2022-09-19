@@ -1,7 +1,7 @@
 {
-  "name": "makenew-latex-project",
-  "description": "Package skeleton for a LaTeX project.",
-  "main": "tex/makenew-latex-project.tex",
+  "name": "curriculum-vitae",
+  "description": "The LaTeX source for Evan Sosenko's curriculum vitae.",
+  "main": "tex/curriculum-vitae.tex",
   "authors": [
     "Evan Sosenko <razorx@evansosenko.com>"
   ],
@@ -9,10 +9,10 @@
     "latex"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/makenew/latex-project",
+  "homepage": "https://github.com/evansosenko/curriculum-vitae",
   "repository": {
     "type": "git",
-    "url": "git://github.com/makenew/latex-project.git"
+    "url": "git://github.com/evansosenko/curriculum-vitae.git"
   },
   "private": true,
   "ignore": [
@@ -20,7 +20,6 @@
     "node_modules",
     "tex/components",
     "build",
-    "makenew.sh",
     "package.json",
     "package-lock.json"
   ]

@@ -1,6 +1,6 @@
 # Build Environment
-LATEX_INPUT = makenew-latex-project
-LATEX_OUTPUT = makenew-latex-project
+LATEX_INPUT = curriculum-vitae
+LATEX_OUTPUT = curriculum-vitae
 LATEX_OUTPUT_EXT = pdf
 LATEX_SRC = tex
 LATEX_BULD = build

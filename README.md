@@ -1,96 +1,15 @@
-# LaTeX Project Skeleton
+# Curriculum Vitae
 
-[![GitHub Actions](https://github.com/makenew/latex-project/workflows/main/badge.svg)](https://github.com/makenew/latex-project/actions)
+[![GitHub Actions](https://github.com/evansosenko/curriculum-vitae/workflows/main/badge.svg)](https://github.com/evansosenko/curriculum-vitae/actions)
 
-Package skeleton for a LaTeX project.
-
-## Description
-
-Bootstrap a new LaTeX project in in five minutes or less.
-
-### Features
-
-- Build a [LaTeX] project with [Latexmk] and [XeLaTeX].
-- Run development tasks from a simple [Makefile].
-- Load external dependencies with [Bower].
-- Build and store PDF artifacts on [GitHub Actions].
-- [Keep a CHANGELOG].
-- Consistent coding with [EditorConfig].
-
-[Bower]: https://bower.io/
-[EditorConfig]: https://editorconfig.org/
-[GitHub Actions]: https://github.com/features/actions
-[LaTeX]: https://www.latex-project.org/
-[Latexmk]: https://www.ctan.org/pkg/latexmk/
-[Makefile]: https://www.gnu.org/software/make/
-[XeLaTeX]: https://ctan.org/pkg/xetex
-
-### Bootstrapping a new project
-
-1. Create an empty (**non-initialized**) repository on GitHub.
-2. Clone the master branch of this repository with
-   ```
-   $ git clone --single-branch git@github.com:makenew/latex-project.git <new-latex-project>
-   $ cd <new-latex-project>
-   ```
-   Optionally, reset to the latest version with
-   ```
-   $ git reset --hard <version-tag>
-   ```
-3. Run
-   ```
-   $ ./makenew.sh
-   ```
-   This will replace the boilerplate, delete itself,
-   remove the git remote, remove upstream tags,
-   and stage changes for commit.
-4. Create the required GitHub repository secrets.
-5. Review, commit, and push the changes to GitHub with
-   ```
-   $ git diff --cached
-   $ git commit -m "Replace makenew boilerplate"
-   $ git remote add origin git@github.com:<user>/<new-latex-project>.git
-   $ git push -u origin master
-   ```
-6. Ensure the GitHub action passes,
-   then publish the initial version of the package with
-   ```
-   $ npm install
-   $ npm ver patch
-   ```
-
-### Updating from this skeleton
-
-If you want to pull in future updates from this skeleton,
-you can fetch and merge in changes from this repository.
-
-Add this as a new remote with
-
-```
-$ git remote add upstream git@github.com:makenew/latex-project.git
-```
-
-You can then fetch and merge changes with
-
-```
-$ git fetch --no-tags upstream
-$ git merge upstream/master
-```
-
-#### Changelog for this skeleton
-
-Note that `CHANGELOG.md` is just a template for this skeleton.
-The actual changes for this project are documented in the commit history
-and summarized under [Releases].
-
-[Releases]: https://github.com/makenew/latex-project/releases
+The LaTeX source for Evan Sosenko's curriculum vitae.
 
 ## Development
 
 ### Quickstart
 
 ```
-$ git clone https://github.com/makenew/latex-project.git
+$ git clone https://github.com/evansosenko/curriculum-vitae.git
 $ cd latex-project
 $ npm install
 $ make
@@ -147,14 +66,14 @@ $ npm start
 
 ## Source Code
 
-The [makenew-latex-project source] is hosted on GitHub.
+The [curriculum-vitae source] is hosted on GitHub.
 Clone the project with
 
 ```
-$ git clone https://github.com/makenew/latex-project.git
+$ git clone https://github.com/evansosenko/curriculum-vitae.git
 ```
 
-[makenew-latex-project source]: https://github.com/makenew/latex-project
+[curriculum-vitae source]: https://github.com/evansosenko/curriculum-vitae
 
 ## Contributing
 
@@ -162,7 +81,7 @@ Please submit and comment on bug reports and feature requests.
 
 To submit a patch:
 
-1. Fork it (https://github.com/makenew/latex-project/fork).
+1. Fork it (https://github.com/evansosenko/curriculum-vitae/fork).
 2. Create your feature branch (`git checkout -b my-new-feature`).
 3. Make changes.
 4. Commit your changes (`git commit -am 'Add some feature'`).
